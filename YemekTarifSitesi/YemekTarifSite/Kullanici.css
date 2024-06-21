@@ -1,0 +1,76 @@
+﻿a:link {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    color: white;
+}
+
+a:hover {
+    font-size: 18px;
+    color: yellow;
+}
+
+.t {
+    padding: 0 10px;
+    text-align: left;
+    transition-property: box-shadow, background;
+    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
+    background-color: #FFFFFF;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #DAE3F3;
+    border-radius: 0px;
+    color: #272C34;
+    width: 80%;
+    cursor: text;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    height: 30px;
+    : hover
+
+{
+    box-shadow: 0px 2px 4px rgb(39 44 52 / 12%);
+}
+
+:focus {
+    transition-property: border-color, box-shadow, background;
+    border-color: #39414D;
+    outline: 0px;
+    box-shadow: 0 0 0 3px #c5d2e7;
+}
+                
+}
+
+.b {
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+    padding: 0 32px;
+    border-radius: 6px;
+    color: #fff;
+    height: 48px;
+    font-size: 18px;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    : hover
+
+{
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+    transform: translateY(-2px);
+}
+
+:active {
+    box-shadow: inset 0px 3px 7px #3c4fe0;
+    transform: translateY(2px);
+}
+                
+}
